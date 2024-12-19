@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
         matchedPairs = 0
         startTime = SystemClock.elapsedRealtime()
 
-        scoreTextView.text = "タイム : 0.00"
+        scoreTextView.text = "タイム : ーー"
         scoreTextView.setTextColor(Color.BLACK)
         startButton.text = "ゲーム中"
 
